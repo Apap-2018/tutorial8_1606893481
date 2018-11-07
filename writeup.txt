@@ -1,0 +1,6 @@
+Apa fungsi BCryptPasswordEncoder?
+untuk melakukan hashing pada password agar pada database tidak disimpan sebagai raw string passwordnya.
+
+Apa yang dilakukan baris berikut? (Method pada kelas              
+UserDetailsServiceImpl.java)
+method itu merubah string ROLE yang ada pada User menjadi objek GrantedAuthority. Objek tersebut yang akan digunakan untuk menentukan apakah user memiliki akses kepada halaman atau tidak.
