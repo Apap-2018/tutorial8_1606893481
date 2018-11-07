@@ -1,5 +1,7 @@
 package com.apap.tutorial6.model;
 
+import com.apap.tutorial6.security.ValidPassword;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -23,6 +25,7 @@ public class UserRoleModel implements Serializable {
 
     @NotNull
     @Lob
+    @ValidPassword
     @Column(name = "password", nullable = false)
     private String password;
 
